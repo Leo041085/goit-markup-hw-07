@@ -1,0 +1,17 @@
+.nav-link, 
+.logo,
+.contact-link,
+.footer-link {
+    text-decoration: none;
+}
+.list-contact, 
+.contact-link, 
+.header-items,
+.steps-items,
+.list-doing,
+.list-team {
+    list-style: none;
+}
+
+
+
