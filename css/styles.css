@@ -72,6 +72,9 @@ color: #434455;
 }
 /* ====================/Header============= */
 /* ===========Steps========== */
+.steps-items {
+    background-color: #FFFFFF;
+}
 .title {
     font-family: 'Roboto';
     font-style: normal;
@@ -103,6 +106,9 @@ color: #434455;
 /* ============/Steps====================== */
 
 /* ===================Doing=============== */
+.sections-doing {
+background-color: #F4F4FD;
+}
 .title-doing {
     font-weight: 700;
     font-size: 36px;
