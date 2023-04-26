@@ -72,6 +72,19 @@ color: #434455;
 }
 /* ====================/Header============= */
 /* ===========Steps========== */
+.title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1/07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+.main-section {
+    background-color: #2e2f42;
+}
 .title-steps {
     font-weight: 500;
     font-size: 20px;
@@ -136,6 +149,7 @@ color: #434455;
     color: #F4F4FD;
 }
 .main-btn {
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
