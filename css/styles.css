@@ -49,6 +49,7 @@ color: #434455;
 
 /* =================Header================ */
 .header-link {
+    font-style: normal;
     font-weight: 500;        
     font-size: 16px;
     line-height: 1.5;
@@ -60,6 +61,7 @@ color: #434455;
     color: #404BBF;
 }
 .contact-link {
+    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -90,6 +92,7 @@ color: #434455;
     background-color: #2e2f42;
 }
 .title-steps {
+    font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -111,6 +114,7 @@ color: #434455;
 background-color: #F4F4FD;
 }
 .title-doing {
+    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -121,6 +125,7 @@ background-color: #F4F4FD;
 }
 /* =================Team================== */
 .title-team {
+    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -130,6 +135,7 @@ background-color: #F4F4FD;
     color: #2E2F42;
 }
 .caption-team {
+    font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -138,6 +144,7 @@ background-color: #F4F4FD;
     color: #2E2F42;
 }
 .profesion {
+    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -157,6 +164,7 @@ background-color: #F4F4FD;
 }
 .main-btn {
     font-family: "Roboto", sans-serif;
+    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -202,6 +210,7 @@ background-color: #F4F4FD;
 }
 .hero-btn {
     font-family: "Roboto", sans-serif;
+    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
