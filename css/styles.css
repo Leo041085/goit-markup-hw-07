@@ -13,6 +13,9 @@ text-decoration: none;
 background-color: #FFFFFF;
 color: #434455;
 }
+.adress {
+    font-style: normal
+}
 .logo-text {
     font-family: 'Raleway',sans-serif;
     font-style: normal;
