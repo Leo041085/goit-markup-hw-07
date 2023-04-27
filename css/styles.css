@@ -1,5 +1,6 @@
 :root {
     --accent-link: ##4d5ae5;
+    --accent-white: #F4F4FD;
 }
 
 .link {
@@ -32,7 +33,7 @@ color: #434455;
     color: #2E2F42;
 }
 .logo-text-footer {
-    color: #F4F4FD;
+    color: var(--accent-white);
 }
 .nav-link {
     font-family: 'Raleway',sans-serif;;
@@ -130,7 +131,7 @@ color: #434455;
 }
 /* =================Team================== */
 .section-team {
-    background-color: #F4F4FD;
+    background-color: var(--accent-white);
 }
 .item-team {
     background-color: #FFFFFF;
@@ -165,7 +166,7 @@ color: #434455;
 }
 /* ================ /Team ==============*/
 .team {
-    background-color: #F4F4FD;
+    background-color: var(--accent-white);
 }
 /* ==========Footer============= */
 .text-footer-link {
@@ -173,7 +174,7 @@ color: #434455;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #F4F4FD;
+    color: var(--accent-white);
 }
 .main-btn {
     font-family: "Roboto", sans-serif;
@@ -188,7 +189,7 @@ color: #434455;
     cursor: pointer;
 }
 .main-btn {
-    background-color: #4D5AE5;
+    background-color: var(--accent-link);
 }
 .main-btn:hover,
 .main-btn:focus {
