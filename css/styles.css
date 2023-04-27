@@ -236,6 +236,7 @@ color: #434455;
     align-items: center;
     text-align: center;
     letter-spacing: 0.04em;
+    background-color: var(--accent-white);
     color: var(--accent-link);
     cursor: pointer;
 }
