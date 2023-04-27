@@ -189,7 +189,7 @@ color: #434455;
     cursor: pointer;
 }
 .main-btn {
-    background-color: var(--accent-link);
+    background-color: #4D5AE5;
 }
 .main-btn:hover,
 .main-btn:focus {
