@@ -111,7 +111,7 @@ color: #434455;
 
 /* ===================Doing=============== */
 .sections-doing {
-background-color: #F4F4FD;
+
 }
 .title-doing {
     font-style: normal;
@@ -121,7 +121,6 @@ background-color: #F4F4FD;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    background-color: #F4F4FD;
     color: #2E2F42;
     
 }
@@ -134,7 +133,6 @@ background-color: #F4F4FD;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    background-color: #F4F4FD;
     color: #2E2F42;
 }
 .caption-team {
@@ -156,7 +154,9 @@ background-color: #F4F4FD;
     color: #434455;
 }
 /* ================ /Team ==============*/
-
+.team {
+    background-color: #F4F4FD;
+}
 /* ==========Footer============= */
 .text-footer-link {
     font-weight: 400;
