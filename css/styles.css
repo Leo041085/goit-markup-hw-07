@@ -121,7 +121,9 @@ background-color: #F4F4FD;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    background-color: #F4F4FD;
     color: #2E2F42;
+    
 }
 /* =================Team================== */
 .title-team {
@@ -132,6 +134,7 @@ background-color: #F4F4FD;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    background-color: #F4F4FD;
     color: #2E2F42;
 }
 .caption-team {
