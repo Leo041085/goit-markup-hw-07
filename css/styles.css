@@ -128,6 +128,12 @@ color: #434455;
     
 }
 /* =================Team================== */
+.section-team {
+    background-color: #F4F4FD;
+}
+.list-team {
+    background-color: #FFFFFF;
+}
 .title-team {
     font-style: normal;
     font-weight: 700;
@@ -197,6 +203,7 @@ color: #434455;
 /* ===========Hero=========== */
 .caption-text {
     font-family: 'Roboto',sans-serif;
+    text-decoration: none;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -213,6 +220,9 @@ color: #434455;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
+.hero-pages {
+    text-decoration: none;
 }
 .hero-btn {
     font-family: "Roboto", sans-serif;
