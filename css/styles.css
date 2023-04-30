@@ -230,6 +230,7 @@ color: #434455;
     min-width: 169px;
     height: 56px;
     border: none;
+    border-radius: 4px;
 }
 
 .main-btn:hover,
