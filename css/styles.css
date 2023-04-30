@@ -3,23 +3,45 @@
     --accent-white: #F4F4FD;
 }
 
-/* =============Reset margin and padding============ */
-h1, h2, h3, h4, h5, h6, p, {
-margin: 0;
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
 }
+/* У цієї блокової моделі властивості width і height встановлюють фінальні розміри елемента,
+а не його області вмісту. Контент автоматично «стискається» таким чином,
+щоб всередині контейнера ще помістилися padding і border. */
+
+/* =============Reset style (margin and padding)============ */
+
+body {
+    margin: 0;
+}
+
+
+h1, h2, h3, h4, h5, h6, p, {
+    margin: 0;
+}
+
 
 ul {
     margin: 0;
     padding: 0;
-}
+} 
+
 
 img {
     display: block;
     max-width: 100%;
     height: auto;
 }
+    
 
-/* ================================================== */
+
+/* ======================/ RESET  ============================ */
+
+
 .link {
     text-decoration: none;
 }
@@ -127,7 +149,22 @@ color: #434455;
 }
 
 
-.title {
+/* =========================Main====================== */
+
+.main-section {
+    background-color: #2e2f42;
+    padding-top: 188px;
+    padding-bottom: 188px;
+}
+
+.container {
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+.main-title {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -136,13 +173,35 @@ color: #434455;
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+    margin-bottom: 48px;
+    max-width: 496px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
-
-.main-section {
-    background-color: #2e2f42;
+.main-btn {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    display: block;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 16px 32px;
 }
 
+.main-btn:hover,
+.main-btn:focus {
+    background-color: #404BBF;
+    color: #FFFFFF;
+}
 
 .title-steps {
     font-style: normal;
@@ -166,13 +225,44 @@ color: #434455;
 
 /* ============/Steps====================== */
 
+.sections-steps {
+    padding-bottom: 120px;
+    padding-top: 120px;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.steps-items {
+    display: flex;
+    gap: 24px;
+}
+
+.title-steps {
+    margin-bottom: 8px;
+}
+
+.steps-item {
+    width: calc((100% - 72px) / 4);
+}
+
+/*===================Hiden H2============ */
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 
 /* ===================Doing=============== */
 
-
-.sections-doing {
-
-}
 
 
 .title-doing {
@@ -252,32 +342,6 @@ color: #434455;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--accent-white);
-}
-
-
-.main-btn {
-    font-family: "Roboto", sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.04em;
-    color: #FFFFFF;
-    cursor: pointer;
-}
-
-
-.main-btn {
-    background-color: #4D5AE5;
-}
-
-
-.main-btn:hover,
-.main-btn:focus {
-    background-color: #404BBF;
-    color: #FFFFFF;
 }
 
 

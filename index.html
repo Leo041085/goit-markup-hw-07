@@ -11,6 +11,10 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="node_modules/modern-normalize/modern-normalize.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
@@ -50,12 +54,16 @@
     <!-- Unical content -->
     <main class="main-desk">
       <section class="main-section">
-        <h1 class="title">Effective Solutions for Your Business</h1>
-        <button class="main-btn" type="button">Order Service</button>
+        <div class="container">
+          <h1 class="main-title">Effective Solutions for Your Business</h1>
+          <button class="main-btn" type="button">Order Service</button>
+        </div>
       </section>
       <!-- Steps -->
       <section class="sections-steps">
-        <h2 class="title-doing" hidden>Steps</h2>
+        <div class="container">
+          <!-- hiden h2 -->
+          <h2 class="title-doing visually-hidden">Steps</h2>
         <ul class="steps-items list">
           <li class="steps-item list">
             <h3 class="title-steps">Strategy</h3>
@@ -86,6 +94,7 @@
             </p>
           </li>
         </ul>
+        </div>
       </section>
       <!-- Doing -->
       <section class="sections-doing">
