@@ -178,15 +178,16 @@ color: #434455;
 
 .container {
     width: 1158px;
-    padding: 0 15px 0 15px;
-    /* padding: 0 15px; */
-    /* padding-right: 15px; */
+    padding-left: 15px;
+    padding-right: 15px;
     margin: 0 auto;
 }
 
 .flex {
     display: flex;
-    padding: 24px 0;
+    /* padding: 24px 0; */
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .main-title {
