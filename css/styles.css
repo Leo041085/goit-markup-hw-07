@@ -223,7 +223,7 @@ color: #434455;
 }
 
 
-/* ============/Steps====================== */
+/* ============Sections 1====================== */
 
 .sections-steps {
     padding-bottom: 120px;
@@ -260,9 +260,12 @@ color: #434455;
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+/* ================= /Section 1============== */
+/* =================== Section 2 - Doing=============== */
 
-/* ===================Doing=============== */
-
+.sections-doing {
+    padding-bottom: 120px;
+}
 
 
 .title-doing {
@@ -274,9 +277,20 @@ color: #434455;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2E2F42;
-    
+}
+.title-doing {
+    padding-bottom: 72px;
 }
 
+ .list-doing {
+    display: flex;
+    gap: 24px;
+ }
+
+ .item-doing {
+    width: calc((100% - 48px) / 3);
+    
+ }
 
 /* =================Team================== */
 
