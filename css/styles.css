@@ -61,7 +61,8 @@ color: #434455;
 
 
 .adress {
-    font-style: normal
+    font-style: normal;
+    margin-left: 332px;
 }
 
 
@@ -179,6 +180,11 @@ color: #434455;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    padding: 24px 0;
 }
 
 .main-title {
