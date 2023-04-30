@@ -1,6 +1,7 @@
 :root {
     --accent-link: #4d5ae5;
     --accent-white: #F4F4FD;
+    --accent-hero-btn: #e7e9fc;
 }
 
 
@@ -429,6 +430,11 @@ color: #434455;
 /* ===========Hero=========== */
 
 
+.main-her-btn {
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
+
 .caption-text {
     font-family: 'Roboto',sans-serif;
     text-decoration: none;
@@ -455,6 +461,10 @@ color: #434455;
 
 .hero-pages {
     text-decoration: none;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px;
 }
 
 
@@ -471,6 +481,9 @@ color: #434455;
     background-color: var(--accent-white);
     color: var(--accent-link);
     cursor: pointer;
+    padding: 12px 24px;
+    border: 1px solid var(--accent-hero-btn);
+    border-radius: 4px;
 }
 
 
@@ -478,6 +491,7 @@ color: #434455;
 .hero-btn:focus {
     background-color: #404BBF;
     color: #FFFFFF;
+    border: 1px solid transparent;
 }
 
 
