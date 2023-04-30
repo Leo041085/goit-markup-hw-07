@@ -270,7 +270,7 @@ color: #434455;
 /* =================== Section 2 - Doing=============== */
 
 .sections-doing {
-    margin-bottom: 120px;
+    padding-bottom: 120px;
 }
 
 
@@ -285,7 +285,7 @@ color: #434455;
     color: #2E2F42;
 }
 .title-doing {
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 
  .list-doing {
