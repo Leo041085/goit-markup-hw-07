@@ -99,6 +99,7 @@ color: #434455;
     text-transform: uppercase;
     letter-spacing: 0.03em;
     color: #4D5AE5;
+    margin-right: 76px;
 }
 
 /* ===============Components============== */
@@ -107,7 +108,14 @@ color: #434455;
 /* =================/Components=========== */
 
 /* =================Header================ */
+.header {
+    border-bottom: 1px solid #e7e9fc
+}
 
+.header-nav {
+    display: flex;
+    align-items: center;
+}
 .header-link {
     font-style: normal;
     font-weight: 500;        
@@ -139,6 +147,15 @@ color: #434455;
     color: #404BBF;
 }
 
+.header-items {
+    display: flex;
+    gap: 40px;
+}
+
+.list-contact {
+    display: flex;
+    gap: 40px;
+}
 
 /* ====================/Header============= */
 
