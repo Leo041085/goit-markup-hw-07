@@ -495,6 +495,28 @@ color: #434455;
 }
 
 
+.lists-apps {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+
+.lists-apps-item {
+    width: calc((100% - 48px) / 3);
+}
+
+.bloc-list-apps {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+
+
+.caption-text {
+    margin-bottom: 8px;
+}
+
 .heding-text {
     font-weight: 500;
     font-size: 20px;
