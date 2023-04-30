@@ -183,14 +183,13 @@ color: #434455;
 
 .container {
     width: 1158px;
+    margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
-    margin: 0 auto;
 }
 
 .flex {
     display: flex;
-    /* padding: 24px 0; */
     padding-top: 24px;
     padding-bottom: 24px;
 }
