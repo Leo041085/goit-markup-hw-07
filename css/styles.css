@@ -201,9 +201,8 @@ color: #434455;
 
 .flex {
     display: flex;
-    padding-top: 24px;
-    padding-bottom: 24px;
-    /* zmina */
+    /* padding-top: 24px;
+    padding-bottom: 24px; */
 }
 
 .main-title {
