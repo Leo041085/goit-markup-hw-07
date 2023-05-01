@@ -370,7 +370,9 @@ color: #434455;
 }
 
 .bloc-list-team {
-    padding: 32px 0;
+    /* padding: 32px 0; */
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .item-social-hub {
@@ -472,10 +474,10 @@ color: #434455;
 }
 
 .title-customers {
-    margin-bottom: 72px;
     font-size: 36px;
     line-height: 1.1;
     color: var(--accent-title-customers);
+    margin-bottom: 72px;
 }
 
 .link-customers {
