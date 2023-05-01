@@ -496,6 +496,9 @@ color: #434455;
     color: var(--accent-footer-soc);
     margin-bottom: 16px;
 }
+.text-footer-link {
+    margin-bottom: 16px;
+}
 
 .soc-hub-list {
     display: flex;
