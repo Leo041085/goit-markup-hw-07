@@ -472,10 +472,10 @@ color: #434455;
 }
 
 .title-customers {
+    margin-bottom: 72px;
     font-size: 36px;
     line-height: 1.1;
     color: var(--accent-title-customers);
-    margin-bottom: 72px;
 }
 
 .link-customers {
@@ -501,8 +501,15 @@ color: #434455;
 }
 
 .list-customers {
-    width: calc((100% - 120px) / 6);
     height: 88px;
+}
+
+.item-customers {
+    width: calc((100% - 120px) / 6);
+}
+
+.icons-customers {
+    fill: currentColor;
 }
 
 /* ==========Footer============= */
@@ -514,6 +521,7 @@ color: #434455;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--accent-white);
+    margin-bottom: 16px;
 }
 
 
