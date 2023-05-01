@@ -3,6 +3,9 @@
     --accent-white: #F4F4FD;
     --accent-hero-btn: #e7e9fc;
     --accent-footer-soc: #FFFFFF;
+    --accent-title-customers: #2e2f42;
+    --accent-link-custumers: #8e8f99;
+
 }
 
 
@@ -357,7 +360,7 @@ color: #434455;
     
  }
 
-/* ================= sections Team================== */
+/* ================= sections Team  ================== */
 
 
 .section-team {
@@ -456,14 +459,51 @@ color: #434455;
     color: #434455;
 }
 
-
-/* ================ /Team ==============*/
-
-
 .team {
     background-color: var(--accent-white);
 }
 
+/* ================ /Team ==============*/
+
+/* ==================  Sections icons  ============== */
+
+.section-icons {
+    padding: 120px 0 120px;
+}
+
+.title-customers {
+    font-size: 36px;
+    line-height: 1.1;
+    color: var(--accent-title-customers);
+    margin-bottom: 72px;
+}
+
+.link-customers {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--accent-link-custumers);
+}
+
+.link-customers:hover,
+.link-customers:focus {
+    border-color: #404bbf;
+    color: #404bbf;
+}
+
+.list-customers {
+    display: flex;
+    gap: 24px;
+}
+
+.list-customers {
+    width: calc((100% - 120px) / 6);
+    height: 88px;
+}
 
 /* ==========Footer============= */
 
@@ -530,6 +570,9 @@ color: #434455;
 }
 
 /* ====================== /Footer ========= */
+
+
+
 
 
 /* =================PORTFOLIO============ */
