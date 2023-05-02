@@ -30,7 +30,7 @@
           </a>
           <ul class="header-items list zmina">
             <li class="header-item">
-              <a href="./index.html" class="header-link link zmina">Studio</a>
+              <a href="./index.html" class="header-link link zmina psevdo-studio">Studio</a>
             </li>
             <li class="header-item">
               <a href="./portfolio.html" class="header-link link zmina"
@@ -63,7 +63,7 @@
       <section class="main-section">
         <div class="container">
           <h1 class="main-title">Effective Solutions for Your Business</h1>
-          <button class="main-btn" type="button">Order Service</button>
+          <button class="main-btn" type="button" data-modal-open>Order Service</button>
         </div>
       </section>
       <!-- Steps -->
@@ -430,5 +430,15 @@
         </div>
       </div>
     </footer>
+
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="modal-close-btn" data-modal-close>
+          <svg class="modal-close-btn-icon" width="8" height="8">
+            <use href="./images/icons.svg#icon-close-modal"></use>
+          </svg>
+        </button></div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
