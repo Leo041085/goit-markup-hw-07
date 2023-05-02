@@ -5,7 +5,6 @@
     --accent-footer-soc: #FFFFFF;
     --accent-title-customers: #2e2f42;
     --accent-link-custumers: #8e8f99;
-
 }
 
 
@@ -43,7 +42,6 @@ img {
 }
     
 
-
 /* ======================/ RESET  ============================ */
 
 
@@ -68,6 +66,8 @@ color: #434455;
 .adress {
     font-style: normal;
     margin-left: 332px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 
@@ -106,16 +106,10 @@ color: #434455;
     letter-spacing: 0.03em;
     color: #4D5AE5;
     margin-right: 76px;
-    /*  pravka */
-    padding-top: 24px;
-    /* padding-bottom: 24px; */
-    /* забрав цей падінг */
-}
-
-.zmina {
     padding-top: 24px;
     padding-bottom: 24px;
 }
+
 
 /* ===============Components============== */
 
@@ -139,6 +133,8 @@ color: #434455;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 
@@ -166,6 +162,8 @@ color: #434455;
 .header-items {
     display: flex;
     gap: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .heder-item {
@@ -437,6 +435,7 @@ color: #434455;
     padding-top: 32px;
     padding-bottom: 32px;
 }
+
 .padding {
     padding-top: 32px;
     padding-bottom: 32px;
@@ -528,6 +527,22 @@ color: #434455;
 /* ==========Footer============= */
 
 
+.nav-link-footer {
+    font-family: 'Raleway', sans-serif;
+    ;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    color: #4D5AE5;
+    margin-right: 76px;
+}
+
+
 .text-footer-link {
     font-weight: 400;
     font-size: 16px;
@@ -592,11 +607,9 @@ color: #434455;
 
 /* ====================== /Footer ========= */
 
+/* ========================================================== */
 
-
-
-
-/* =================PORTFOLIO============ */
+/* =================   PORTFOLIO  ============ */
 
 
 .header {
