@@ -430,16 +430,10 @@ color: #434455;
 
 
 .bloc-list-team {
-    /* padding-left: 16px;
-    padding-right: 16px; */
     padding-top: 32px;
     padding-bottom: 32px;
 }
 
-.padding {
-    padding-top: 32px;
-    padding-bottom: 32px;
-}
 
 .icon-soc-hub-team {
     fill: var(--accent-white);
