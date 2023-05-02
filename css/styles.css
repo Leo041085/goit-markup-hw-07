@@ -199,8 +199,9 @@ color: #434455;
     background-position: center;
     background-size: cover;
     /* position: absolute; */
-    left: 0px;
-    top: 72px;
+    /* left: 0px;
+    top: 72px; */
+    margin: 0 auto;
 }
 
 .container {
