@@ -125,6 +125,10 @@ color: #434455;
     background-color: #404BBF;
     content: '';
     margin-top: 20px;
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    border-radius: 2px;
 }
 .psevdo-portfolio::after {
     display: flex;
@@ -134,6 +138,10 @@ color: #434455;
     background-color: #404BBF;
     content: '';
     margin-top: 20px;
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    border-radius: 2px;
 }
 
 
@@ -161,6 +169,8 @@ color: #434455;
     color: #2E2F42;
     padding-top: 24px;
     padding-bottom: 24px;
+    position: relative;
+    transition: color var(--transition-dur-and-func);
 }
 
 
@@ -177,6 +187,7 @@ color: #434455;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    transition: color var(--transition-dur-and-func);
 }
 
 
@@ -281,7 +292,9 @@ color: #434455;
     height: 56px;
     border: none;
     border-radius: 4px;
+    transition: transition: background-color var(--transition-dur-and-func), color var(--transition-dur-and-func);
 }
+
 
 .main-btn:hover,
 .main-btn:focus {
@@ -415,6 +428,7 @@ color: #434455;
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: background-color var(--transition-dur-and-func);
 }
 .link-social-hub:hover,
 .link-social-hub:focus {
@@ -519,6 +533,7 @@ color: #434455;
     align-items: center;
     justify-content: center;
     color: var(--accent-link-custumers);
+    transition: background-color var(--transition-dur-and-func), color var(--transition-dur-and-func);
 }
 
 .link-customers:hover,
@@ -608,6 +623,7 @@ color: #434455;
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: background-color var(--transition-dur-and-func);
 }
 
 .soc-hub-link:hover,
@@ -648,6 +664,8 @@ color: #434455;
     width: 408px;
     height: 584px;
     background-color: rgba(252, 252, 252, 1);
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
 }
 
 .modal-close-btn {
@@ -661,7 +679,7 @@ color: #434455;
     height: 24px;
     border-radius: 50%;
     background-color: #E7E9FC;
-    border: 1px solid #000000;
+    border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 0;
     transition: background-color var(--transition-dur-and-func);
 }
@@ -749,6 +767,7 @@ color: #434455;
     padding: 12px 24px;
     border: 1px solid var(--accent-hero-btn);
     border-radius: 4px;
+    transition: background-color var(--transition-dur-and-func), color var(--transition-dur-and-func), border var(--transition-dur-and-func), box-shadow var(--transition-dur-and-func);
 }
 
 
@@ -762,6 +781,7 @@ color: #434455;
 
 .hero-links {
     display: block;
+    transition: box-shadow var(--transition-dur-and-func), transform var(--transition-dur-and-func);
 }
 
 .hero-links:hover,
