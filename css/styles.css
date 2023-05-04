@@ -1075,6 +1075,8 @@ color: #434455;
     border-radius: 4px;
     letter-spacing: 0.04em;
     color: #FFFFFF;
+    min-width: 165px;
+    height: 40px;
 }
 
 .footer-email-form {
@@ -1110,6 +1112,10 @@ color: #434455;
     border: 1px solid #FFFFFF;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
+    min-width: 165px;
+    height: 40px;
+    margin-top: 16px;
+    padding-left: 8px;
 }
 .inp-email::placeholder {
     font-style: normal;
@@ -1121,5 +1127,6 @@ color: #434455;
     letter-spacing: 0.04em;
     color: #FFFFFF;
     width: 100%;
+    padding-left: 16px;
 
 }
