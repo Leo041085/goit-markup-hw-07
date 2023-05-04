@@ -277,7 +277,7 @@ color: #434455;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    display: block
+    display: block;
     align-items: center;
     letter-spacing: 0.04em;
     background-color: #4D5AE5;
@@ -291,7 +291,6 @@ color: #434455;
     min-width: 169px;
     height: 56px;
     border: none;
-    border-radius: 4px;
     transition: background-color, color var(--transition-dur-and-func);
 }
 
@@ -666,6 +665,10 @@ color: #434455;
     background-color: #FCFCFC;
     box-shadow: rgba(0, 0, 0, 0.2);
     border-radius: 4px;
+    padding-top: 72px;
+    padding-right: 24px;
+    padding-left: 24px;
+    padding-bottom: 24px;
 }
 
 .modal-close-btn {
@@ -698,9 +701,173 @@ color: #434455;
     fill: var(--accent-footer-soc);
 }
 
-
 /* ====================== / Modal window ========= */
-/* ========================================================== */
+.modal-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-form-field {
+    margin-bottom: 8px;
+}
+.modal-form-input-desc {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: #8E8F99;
+    margin-bottom: 4px;
+}
+
+.modal-form-input {
+    display: block;
+    width: 100%;
+    height: 40px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 4px;
+    padding-left: 38px;
+    color: black;
+    /* колір тексту введення */
+    font-size: 16px;
+    transition: border-color, fill var(--transition-dur-and-func);
+
+}
+
+.modal-form-input:focus {
+    outline: none;
+    border-color: #4D5AE5;
+}
+
+.modal-form-input:focus + .modal-form-input-icon {
+    fill: #4D5AE5;
+}
+
+.subtitle-modal-form {
+    align-items: center;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.modal-form-input-wraper {
+    position: relative;
+}
+
+.modal-form-input-icon {
+    position: absolute;
+    top: 50%;
+    left: 16px;
+    transform: translateY(-50%);
+    transition: fill var(--transition-dur-and-func);
+}
+
+.modal-form-message {
+    width: 100%;
+    height: 120px;
+    padding: 10px 16px;
+    border-radius: 4px;
+    resize: none;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    transition: border-color, fill var(--transition-dur-and-func);
+}
+
+.modal-form-message:focus {
+    outline: none;
+    border-color: #4D5AE5;
+}
+
+.modal-form-message::placeholder {
+    /* font-size: 16px; */
+    color: rgba(46, 47, 66, 0.4);
+    text-transform: uppercase;
+}
+
+.modal-form-input-desc {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: rgba(46, 47, 66, 0.4);
+}
+.modal-form-check-desc {
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: rgba(46, 47, 66, 0.4);
+    margin-bottom: 24px;
+}
+
+.modal-form-check-desc::before {
+    display: block;
+    width: 16px;
+    height: 16px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 2px;
+    content:'';
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.modal-form-check {
+    width: 16px;
+    height: 16px;
+    /* background: #404BBF; */
+    /* border: 1px solid #404BBF; */
+    border-radius: 2px;
+}
+
+.modal-form-check:checked + .modal-form-check-desc::before {
+    /* background-color: red; */
+    background-image: url(../images/Property.jpg);
+}
+
+.modal-form-check:focus + .modal-form-check-desc {
+    /* outline: 4px solid #404bbf; */
+    /* border: #404BBF var(--transition-dur-and-func); */
+}
+
+.modal-form-btn {
+    display: block ;
+    min-width: 169px;
+    height: 56px;
+    /* border: none; */
+    font-size: 16px;
+    line-height: 1.5;
+    align-items: center;
+    letter-spacing: 0.04em;
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+    padding: 16px 32px;
+    box-shadow: rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    align-self: center;
+}
+
+.modal-form-btn:hover,
+.modal-form-btn:focus {
+    /* background: #020310 var(--transition-dur-and-func); */
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15) var(--transition-dur-and-func);
+}
+
+.modal-form-check-desc-icon {
+    /* background-color: #404BBF; */
+    /* border: #404bbf; */
+}
+
+
+
+/* *======================Modal FORm================*/
+
+/* ======================== / MODAL FORM ================================== */
 
 /* =================   PORTFOLIO  ============ */
 
