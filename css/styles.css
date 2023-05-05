@@ -6,7 +6,7 @@
     --accent-title-customers: #2e2f42;
     --accent-link-custumers: #8e8f99;
     --accent-act-btn-close-modal: #404BBF;
-    
+
     --transition-dur-and-func: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -16,6 +16,7 @@
 *::after {
     box-sizing: border-box;
 }
+
 /* У цієї блокової моделі властивості width і height встановлюють фінальні розміри елемента,
 а не його області вмісту. Контент автоматично «стискається» таким чином,
 щоб всередині контейнера ще помістилися padding і border. */
@@ -27,7 +28,13 @@ body {
 }
 
 
-h1, h2, h3, h4, h5, h6, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
     margin: 0;
 }
 
@@ -35,17 +42,18 @@ h1, h2, h3, h4, h5, h6, p {
 ul {
     margin: 0;
     padding: 0;
-} 
+}
 
 button {
     cursor: pointer;
 }
+
 img {
     display: block;
     max-width: 100%;
     height: auto;
 }
-    
+
 
 /* ======================/ RESET  ============================ */
 
@@ -61,10 +69,10 @@ img {
 
 
 body {
-font-family: 'Roboto', sans-serif;
-text-decoration: none;
-background-color: #FFFFFF;
-color: #434455;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    background-color: #FFFFFF;
+    color: #434455;
 }
 
 
@@ -77,7 +85,7 @@ color: #434455;
 
 
 .logo-text {
-    font-family: 'Raleway',sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
@@ -130,6 +138,7 @@ color: #434455;
     left: 0;
     border-radius: 2px;
 }
+
 .psevdo-portfolio::after {
     display: flex;
     align-items: center;
@@ -160,9 +169,10 @@ color: #434455;
     display: flex;
     align-items: center;
 }
+
 .header-link {
     font-style: normal;
-    font-weight: 500;        
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -227,7 +237,7 @@ color: #434455;
     background-color: #2e2f42;
     padding-top: 188px;
     padding-bottom: 188px;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
     max-width: 1440px;
     /* height: 600px; */
     background-repeat: no-repeat;
@@ -367,6 +377,7 @@ color: #434455;
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+
 /* ================= /Section 1============== */
 /* =================== Section 2 - Doing=============== */
 
@@ -385,19 +396,20 @@ color: #434455;
     text-transform: capitalize;
     color: #2E2F42;
 }
+
 .title-doing {
     margin-bottom: 72px;
 }
 
- .list-doing {
+.list-doing {
     display: flex;
     gap: 24px;
- }
+}
 
- .item-doing {
+.item-doing {
     width: calc((100% - 48px) / 3);
-    
- }
+
+}
 
 /* ================= sections Team  ================== */
 
@@ -429,6 +441,7 @@ color: #434455;
     justify-content: center;
     transition: background-color var(--transition-dur-and-func);
 }
+
 .link-social-hub:hover,
 .link-social-hub:focus {
     background-color: #404bbf;
@@ -708,8 +721,10 @@ color: #434455;
 }
 
 .modal-form-field {
-    margin-bottom: 8px;
+    /* margin-bottom: 8px; */
+    margin-top: 8px;
 }
+
 .modal-form-input-desc {
     font-weight: 400;
     font-size: 12px;
@@ -717,6 +732,7 @@ color: #434455;
     letter-spacing: 0.04em;
     color: #8E8F99;
     margin-bottom: 4px;
+    margin-top: 8px;
 }
 
 .modal-form-input {
@@ -738,7 +754,7 @@ color: #434455;
     border-color: #4D5AE5;
 }
 
-.modal-form-input:focus + .modal-form-input-icon {
+.modal-form-input:focus+.modal-form-input-icon {
     fill: #4D5AE5;
 }
 
@@ -785,7 +801,7 @@ color: #434455;
 .modal-form-message::placeholder {
     /* font-size: 16px; */
     color: rgba(46, 47, 66, 0.4);
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 
 .modal-form-input-desc {
@@ -795,6 +811,7 @@ color: #434455;
     letter-spacing: 0.04em;
     color: rgba(46, 47, 66, 0.4);
 }
+
 .modal-form-check-desc {
     display: flex;
     align-items: center;
@@ -812,7 +829,7 @@ color: #434455;
     height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 2px;
-    content:'';
+    content: '';
     margin-right: 8px;
     cursor: pointer;
 }
@@ -825,21 +842,21 @@ color: #434455;
     border-radius: 2px;
 }
 
-.modal-form-check:checked + .modal-form-check-desc::before {
+.modal-form-check:checked+.modal-form-check-desc::before {
     /* background-color: red; */
     background-image: url(../images/Property.jpg);
 }
 
-.modal-form-check:focus + .modal-form-check-desc {
+.modal-form-check:focus+.modal-form-check-desc {
     /* outline: 4px solid #404bbf; */
     /* border: #404BBF var(--transition-dur-and-func); */
 }
 
 .modal-form-btn {
-    display: block ;
+    display: block;
     min-width: 169px;
     height: 56px;
-    /* border: none; */
+    border: none;
     font-size: 16px;
     line-height: 1.5;
     align-items: center;
@@ -886,7 +903,7 @@ color: #434455;
 }
 
 .caption-text {
-    font-family: 'Roboto',sans-serif;
+    font-family: 'Roboto', sans-serif;
     text-decoration: none;
     font-style: normal;
     font-weight: 500;
@@ -899,7 +916,7 @@ color: #434455;
 
 
 .desk-list {
-    font-family: 'Roboto',sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -979,7 +996,7 @@ color: #434455;
     /* overflow-y: scroll; */
     /* скрол по осі y для контенту якщо він буде більший за розміри батьк ел (дів) */
     transform: translate(0, 100%);
-    transition: transform var(--transition-dur-and-func); 
+    transition: transform var(--transition-dur-and-func);
 }
 
 .lists-apps-wrapper {
@@ -1002,8 +1019,7 @@ color: #434455;
 }
 
 .hero-links:hover .overlay,
-.hero-links:focus .overlay
- {
+.hero-links:focus .overlay {
     transform: translate(0, 0);
 
 }
@@ -1033,7 +1049,7 @@ color: #434455;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
-     color: #434455;
+    color: #434455;
 }
 
 
@@ -1071,7 +1087,7 @@ color: #434455;
     border: 1px solid var(--accent-hero-btn);
     justify-content: center;
     margin-left: 24px;
-    margin-right: 159px;
+    /* margin-right: 159px; */
     background: #4D5AE5;
     border-radius: 4px;
     letter-spacing: 0.04em;
@@ -1088,6 +1104,8 @@ color: #434455;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+    text-align: center;
+    
 }
 
 .box-footer-email {
@@ -1116,11 +1134,13 @@ color: #434455;
     border: 1px solid #FFFFFF;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
-    min-width: 165px;
+    min-width: 264px;
     height: 40px;
     margin-top: 16px;
     padding-left: 8px;
+    margin-left: 80px;
 }
+
 .inp-email::placeholder {
     font-style: normal;
     font-weight: 400;
