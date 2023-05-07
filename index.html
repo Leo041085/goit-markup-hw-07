@@ -18,12 +18,20 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/vars.css">
+    <link rel="stylesheet" href="./css/components.css">
+    <link rel="stylesheet" href="./css/mobile.css" />
+    <link rel="stylesheet" href="./css/tablet.css">
+    <link rel="stylesheet" href="./css/desktop.css">
+    
   </head>
   <body>
-    <!-- Header -->
+
+             <!-- Header -->
+             
     <header class="header">
-      <div class="container flex">
+      <div class="container flex page-hesder-container">
         <nav class="header-nav">
           <a href="./index.html" class="header-logo logo link zmina"
             >Web<span class="logo-text logo-text-header">Studio</span>
@@ -46,6 +54,13 @@
             </li>
           </ul>
         </nav>
+        <!-- ============== Burger menu =============-->
+        <button type="button" class="mobile-menu-open js-open-menu">
+          <svg class="mobile-menu-open_icon" width="32" height="22">
+            <use href="./images/icons.svg#icon-menu-hamburger"></use>
+          </svg>
+        </button>
+        <!-- /============ Burger menu ========== -->
         <address class="adress zmina">
           <ul class="list-contact list">
             <li class="contact-item">
@@ -61,9 +76,72 @@
           </ul>
         </address>
       </div>
+
+      <!-- Mobile menu -->
+
+      <div class="mob-backdrop js-menu-container is-open">
+        <div class="mob-menu ">
+        <button type="button" class="mob-menu-btn js-close-menu">
+          <svg class="mob-menu-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-close-modal" ></use>
+          </svg>
+        </button>
+         <ul class="mob-menu-list" >
+          <li class="mob-menu-item" ><a href="./index.html" class="mobile-menu-link" >Studio</a></li>
+          <li class="mob-menu-item" ><a href="./portfolio.html" class="mobile-menu-link" >Portfolio</a></li>
+          <li class="mob-menu-item" ><a href="#contacts" class="mobile-menu-link" >Contacts</a></li>
+         </ul>
+         <div class="mob-box">
+          <ul class="list-contact list mob-contacts">
+            <li class="contact-item">
+              <a href="mailto:info@devstudio.com" class="contact-link link"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a href="tel:+110001111111" class="contact-link link"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+          <ul class="soc-hub-list list mob-soc">
+            <li class="soc-hub-item">
+              <a href="#" class="soc-hub-link">
+                <svg class="soc-hub-icons" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram" />
+                </svg>
+              </a>
+            </li>
+            <li class="soc-hub-item">
+              <a href="#" class="soc-hub-link">
+                <svg class="soc-hub-icons" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter" />
+                </svg>
+              </a>
+            </li>
+            <li class="soc-hub-item">
+              <a href="#" class="soc-hub-link">
+                <svg class="soc-hub-icons" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook" />
+                </svg>
+              </a>
+            </li>
+            <li class="soc-hub-item">
+              <a href="#" class="soc-hub-link">
+                <svg class="soc-hub-icons" width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin" />
+                </svg>
+              </a>
+            </li>
+          </ul>
+         </div>
+      </div>
+      </div>
     </header>
-    <!-- Unical content -->
-    <main class="main-desk">
+
+                    <!-- Unical content -->
+
+    <!-- <main class="main-desk">
       <section class="main-section">
         <div class="container">
           <h1 class="main-title">Effective Solutions for Your Business</h1>
@@ -71,12 +149,16 @@
             Order Service
           </button>
         </div>
-      </section>
-      <!-- Steps -->
-      <section class="sections-steps">
-        <div class="container">
-          <!-- hiden h2 -->
-          <h2 class="title-doing visually-hidden">Steps</h2>
+      </section> -->
+
+                <!-- Steps -->
+
+      <!-- <section class="sections-steps">
+        <div class="container"> -->
+
+               <!-- hiden h2 -->
+
+          <!-- <h2 class="title-doing visually-hidden">Steps</h2>
           <ul class="steps-items list">
             <li class="steps-item list">
               <div class="box-steps-doing">
@@ -128,9 +210,11 @@
             </li>
           </ul>
         </div>
-      </section>
-      <!-- Doing -->
-      <section class="sections-doing">
+      </section> -->
+
+                    <!-- Doing -->
+
+      <!-- <section class="sections-doing">
         <div class="container">
           <h2 class="title-doing">What are we doing</h2>
           <ul class="list-doing list">
@@ -160,8 +244,9 @@
             </li>
           </ul>
         </div>
-      </section>
-      <!-- Team -->
+      </section> -->
+                        <!-- Team -->
+                        
       <section class="section-team">
         <div class="container">
           <h2 class="title-team">Our Team</h2>
@@ -337,7 +422,7 @@
           </ul>
         </div>
       </section>
-      <section class="section-icons">
+      <!-- <section class="section-icons">
         <div class="container">
           <h2 class="title-customers">Customers</h2>
           <ul class="list-customers list">
@@ -385,10 +470,12 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
     </main>
-    <!-- Footer -->
-    <footer class="footer">
+    
+              <!-- Footer -->
+
+    <footer class="footer" id="contacts">
       <div class="container footer-icon">
         <div class="box-logo">
           <a class="logo link footer-modificate" href="./portfolio.html"
@@ -452,11 +539,9 @@
           </label>
           <button type="submit" class="footer-email-btn">
             Subscribe
-            <!-- <span class="icon-footer-email"> -->
             <svg class="email-btn-icon" width="24" height="24">
               <use href="./images/icons.svg#icon-Frame"></use>
             </svg>
-            <!-- </span> -->
           </button>
         </form>
       </div>
@@ -469,8 +554,10 @@
             <use href="./images/icons.svg#icon-close-modal"></use>
           </svg>
         </button>
+
         <!-- =============== MODAL FORM STUDIO=========== -->
-        <form class="modal-form">
+        
+        <!-- <form class="modal-form">
           <p class="subtitle-modal-form">
             Leave your contacts and we will call you back
           </p>
@@ -541,8 +628,10 @@
           <button type="submit" class="modal-form-btn">Send</button>
         </form>
       </div>
-    </div>
+    </div> -->
 
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js" >
+    </script>
   </body>
 </html>

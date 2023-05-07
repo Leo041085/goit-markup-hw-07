@@ -1,0 +1,10 @@
+:root {
+    --accent-link: #4d5ae5;
+    --accent-white: #F4F4FD;
+    --accent-hero-btn: #e7e9fc;
+    --accent-footer-soc: #FFFFFF;
+    --accent-title-customers: #2e2f42;
+    --accent-link-custumers: #8e8f99;
+    --accent-act-btn-close-modal: #404BBF;
+    --transition-dur-and-func: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}

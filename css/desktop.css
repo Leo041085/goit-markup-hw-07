@@ -1,0 +1,99 @@
+@media screen and (min-width: 1158px) {
+  /* ======Header====== */
+
+  .container {
+    width: 1158px;
+  }
+  .contact-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+  }
+.adress {
+    display: flex;
+}
+.list-contact {
+    display: flex;
+}
+  /* ========= / Header ======= */
+
+  /* ========== Main Hero ========= */
+  .main-section {
+    padding-top: 188px;
+    padding-bottom: 188px;
+  }
+  .main-title {
+      margin-bottom: 48px;
+  }
+/* ========== Sections 2 Steps ========== */
+
+.title-steps {
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.sections-steps {
+    padding-bottom: 120px;
+    padding-top: 120px;
+}
+
+.box-steps-doing {
+    display: flex;
+}
+
+.steps-items {
+    display: flex;
+}
+/* ========== Sections 3 Doing ========= */
+
+.title-doing {
+    display: flex;
+}
+
+.list-doing {
+    display: flex;
+}
+/* =========== Sections 4 Team  ================== */
+
+.section-team {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.item-team {
+    width: calc((100% - 72px) / 4);
+}
+
+.section-team .container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+  
+.box-logo {
+    margin-right: 120px;
+}
+.box-footer-email {
+    margin-left: 80px;
+}
+.footer-icon {
+    padding-left: 15px;
+    gap: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

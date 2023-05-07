@@ -18,24 +18,31 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/vars.css">
+    <link rel="stylesheet" href="./css/components.css">
+    <link rel="stylesheet" href="./css/mobile.css">
+    <link rel="stylesheet" href="./css/tablet.css">
+    <link rel="stylesheet" href="./css/desktop.css">
   </head>
   <body>
     <!-- Header -->
     <header class="header">
-      <div class="container flex">
+      <div class="container flex page-hesder-container">
         <nav class="header-nav">
           <a href="./index.html" class="header-logo logo link zmina"
             >Web<span class="logo-text logo-text-header">Studio</span>
           </a>
           <ul class="header-items list zmina">
             <li class="header-item">
-              <a href="./index.html" class="header-link link zmina">Studio</a>
+              <a
+                href="./index.html"
+                class="header-link link zmina"
+                >Studio</a
+              >
             </li>
             <li class="header-item">
-              <a
-                href="./portfolio.html"
-                class="header-link link zmina psevdo-portfolio"
+              <a href="./portfolio.html" class="header-link link zmina psevdo-portfolio"
                 >Portfolio</a
               >
             </li>
@@ -44,6 +51,13 @@
             </li>
           </ul>
         </nav>
+        <!-- ============== Burger menu =============-->
+        <button type="button" class="mobile-menu-open js-open-menu">
+          <svg class="mobile-menu-open_icon" width="32" height="22">
+            <use href="./images/icons.svg#icon-menu-hamburger"></use>
+          </svg>
+        </button>
+        <!-- /============ Burger menu ========== -->
         <address class="adress zmina">
           <ul class="list-contact list">
             <li class="contact-item">
@@ -58,6 +72,21 @@
             </li>
           </ul>
         </address>
+      </div>
+
+      <!-- Mobile menu -->
+
+      <div class="mob-menu js-menu-container is-open">
+        <button type="button" class="mob-menu-btn js-close-menu">
+          <svg class="mob-menu-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-close-modal" ></use>
+          </svg>
+        </button>
+         <ul class="mob-menu-list" >
+          <li class="mob-menu-item" ><a href="./index.html" class="mobile-menu-link" >Studio</a></li>
+          <li class="mob-menu-item" ><a href="./portfolio.html" class="mobile-menu-link" >Portfolio</a></li>
+          <li class="mob-menu-item" ><a href="#contacts" class="mobile-menu-link" >Contacts</a></li>
+         </ul>
       </div>
     </header>
     <!-- Унікальний контент сторінки -->

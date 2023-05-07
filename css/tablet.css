@@ -1,0 +1,94 @@
+@media screen and (min-width: 768px) {
+  /* ======Header====== */
+
+  .container {
+    width: 768px;
+  }
+  .header-nav {
+    display: flex;
+    align-items: center;
+  }
+
+  .header-link {
+    display: flex;
+  }
+
+  .header-items {
+    display: flex;
+  }
+
+  .mobile-menu-open {
+    display: none;
+  }
+
+  .mob-backdrop {
+    display: none;
+}
+
+  .adress {
+      display: block;
+  }
+
+  .list-contact {
+      display: block;
+      gap: 40px;
+  }
+
+  /* ========= / Header ======= */
+
+  /* ========== Main Hero ========= */
+
+  .main-title {
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    margin-bottom: 36px;
+  }
+  /* ========== Sections 2 Steps ========== */
+
+  /* ========== Sections 3 Doing ========= */
+
+  /* ========== Sections 4 Team  ================== */
+
+
+.item-team {
+    background-color: #FFFFFF;
+    width: calc((100% - 48px) / 2);
+
+
+
+}
+.section-team .container {
+    padding-left: 108px;
+    padding-right: 108px;
+}
+
+.list-team {
+    gap: 64px 24px;
+}
+
+.box-footer-email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* outline: solid red; */
+}
+
+
+
+
+
+
+.footer-icon {
+    justify-content: flex-start;
+    gap: 72px 24px;
+    padding-left: 108px;
+}
+.footer .container div {
+    text-align: left;
+}
+
+
+
+
+}
