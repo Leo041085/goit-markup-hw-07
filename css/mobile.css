@@ -18,7 +18,7 @@
     content: '';
     /* margin-top: 20px; */
     position: absolute;
-    bottom: -2px;
+    bottom: -4px;
     left: 0;
     border-radius: 2px;
 }
@@ -32,7 +32,7 @@
     content: '';
     /* margin-top: 20px; */
     position: absolute;
-    bottom: -2px;
+    bottom: -4px;
     left: 0;
     border-radius: 2px;
 }
@@ -282,6 +282,9 @@
 
 .steps-items {
     background-color: #FFFFFF;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 72px 24px;
 }
 
 .sections-steps {
@@ -300,22 +303,18 @@
     margin-bottom: 8px;
 }
 
-.steps-items {
-    display: none;
-    gap: 24px;
-}
-
 .title-steps {
     margin-bottom: 8px;
 }
 
 .steps-item {
-    width: calc((100% - 72px) / 4);
+    width: calc((100%));
 }
 /* =================== Section 3 - Doing=============== */
 
 .sections-doing {
     padding-bottom: 120px;
+    display: none;
 }
 
 .title-doing {
@@ -333,7 +332,6 @@
 }
 
 .list-doing {
-    display: none;
     gap: 24px;
 }
 
@@ -474,7 +472,7 @@
 /* ==================  Sections icons  ============== */
 
 .section-icons {
-    padding: 120px 0 120px;
+    padding: 96px 0;
 }
 
 .title-customers {
@@ -507,13 +505,14 @@
 
 .list-customers {
     display: flex;
-    gap: 24px;
-    height: 88px;
+    flex-wrap: wrap;
+    gap: 72px 16px;
 }
 
 
 .item-customers {
-    width: calc((100% - 120px) / 6);
+    width: calc((100% - 32px) / 2);
+    height: 88px;
 }
 
 .icons-customers {
@@ -618,7 +617,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 408px;
+    width: 100%;
     height: 584px;
     background-color: #FCFCFC;
     box-shadow: rgba(0, 0, 0, 0.2);
@@ -749,15 +748,19 @@
 }
 
 .modal-form-input-desc {
+    display: block;
     font-weight: 400;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: rgba(46, 47, 66, 0.4);
+    margin-bottom: 4px;
 }
 
 .modal-form-check-desc {
     display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
     align-items: center;
     font-weight: 400;
     font-size: 12px;
@@ -765,6 +768,15 @@
     letter-spacing: 0.04em;
     color: rgba(46, 47, 66, 0.4);
     margin-bottom: 24px;
+}
+
+.modal-form-check-desc a {
+    font-weight: 400;
+        font-size: 12px;
+        line-height: 1.33;
+        letter-spacing: 0.04em;
+        text-decoration-line: underline;
+        color: #4D5AE5;
 }
 
 .modal-form-check-desc::before {
@@ -1104,10 +1116,12 @@
 
 /* ==========Mobile first======= */
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 428px) {
     .container {
         width: 428px;
     }
+        .modal {
+            width: 408px;}
 
 
 

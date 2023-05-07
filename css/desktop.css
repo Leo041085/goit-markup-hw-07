@@ -3,6 +3,8 @@
 
   .container {
     width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
   .contact-link {
     font-size: 16px;
@@ -41,13 +43,11 @@
     display: flex;
 }
 
-.steps-items {
-    display: flex;
-}
 /* ========== Sections 3 Doing ========= */
 
 .title-doing {
     display: flex;
+    justify-content: center;
 }
 
 .list-doing {
@@ -85,14 +85,24 @@
 }
 
 
+.item-customers {
+    width: calc((100% - 120px) / 6);
+}
 
 
 
-
-
-
-
-
+.list-customers {
+    gap: 24px;
+}
+.section-icons {
+    padding: 120px 0;
+}
+.section-icons .container {
+    padding: 0 15px;
+}
+.steps-item {
+    width: calc((100% - 72px) / 4);
+}
 
 
 
