@@ -87,6 +87,11 @@
   transition: color var(--transition-dur-and-func);
 }
 
+.contact-link:hover,
+.contact-link:focus {
+  color: #404bbf;
+}
+
 .tel-mob {
   font-size: 36px;
   line-height: 1.11;
@@ -103,19 +108,14 @@
   color: #434455;
 }
 
-.contact-link:hover,
-.contact-link:focus {
-  color: #404bbf;
-}
-
 .header-items {
   display: none;
   gap: 40px;
 }
 
-.header-item {
+/* .header-item {
   /* width: calc((100% - 80px) / 3); */
-}
+
 
 .adress {
   display: none;
@@ -226,6 +226,12 @@
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  transition: color var(--transition-dur-and-func);
+}
+
+.mobile-menu-link:hover,
+.mobile-menu-link:focus {
+  color: #404bbf;
 }
 
 /* ====================/Header============= */
