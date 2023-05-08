@@ -76,10 +76,7 @@
     /* outline: solid red; */
 }
 
-
-
-
-
+/* ======= Footer ======== */
 
 .footer-icon {
     justify-content: flex-start;
@@ -88,6 +85,10 @@
 }
 .footer .container div {
     text-align: left;
+}
+
+.footer-email-btn {
+    margin-left: 24px;
 }
 
 .item-customers {
